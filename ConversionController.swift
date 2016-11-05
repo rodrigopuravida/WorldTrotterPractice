@@ -13,6 +13,28 @@ class ConversionController : UIViewController, UITextFieldDelegate {
     @IBOutlet var celsiusLabel : UILabel!
     @IBOutlet var textField: UITextField!
     
+    
+    override func viewDidLoad() {
+        print("Conversion loaded")
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("Conversion appearing")
+        self.view.backgroundColor = self.getRandomColor()
+    }
+    
+    func getRandomColor() -> UIColor{
+        
+        let randomRed:CGFloat = CGFloat(drand48())
+        
+        let randomGreen:CGFloat = CGFloat(drand48())
+        
+        let randomBlue:CGFloat = CGFloat(drand48())
+        
+        return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
+        
+    }
+    
     let numberFormatter: NumberFormatter = {
         let nf = NumberFormatter()
         nf.numberStyle = .decimal

@@ -2,6 +2,16 @@
   "images" : [
     {
       "idiom" : "iphone",
+      "size" : "20x20",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "20x20",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "iphone",
       "size" : "29x29",
       "scale" : "2x"
     },
@@ -29,6 +39,30 @@
       "idiom" : "iphone",
       "size" : "60x60",
       "scale" : "3x"
+    },
+    {
+      "filename" : "ConvertIcon.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "ConvertIcon@2x.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "ConvertIcon@3x.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "MapIcon.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "MapIcon@2x.png",
+      "unassigned" : true
+    },
+    {
+      "filename" : "MapIcon@3x.png",
+      "unassigned" : true
     }
   ],
   "info" : {
